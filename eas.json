@@ -1,0 +1,17 @@
+{
+    "build": {
+      "development": {
+        "releaseChannel": "development",
+        "env": {
+          "API_URL": "https://dev.api.com"
+        }
+      },
+      "production": {
+        "releaseChannel": "production",
+        "env": {
+          "API_URL": "https://prod.api.com"
+        }
+      }
+    }
+  }
+  
