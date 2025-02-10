@@ -20,22 +20,21 @@ yarn
 
 
 ## RUN PROJECT - Scripts
+[EXPO GO]
+```bash
+yarn start # DEVELOPMENT MODE
+yarn run start:prod # PRODUCTION MODE
+```
+
+
 [android]
 ```bash
-yarn run android:dev # DEVELOPMENT MODE
-yarn run android:prod # PRODUCTION MODE
-yarn run android:dev:release # DEVELOPMENT RELEASE MODE
-yarn run android:prod:release # PRODUCTION RELEASE MODE
-yarn run android:dev-apk # DEVELOPMENT APK
-yarn run android:dev-aab # DEVELOPMENT BUNDLE
-yarn run android:prod-apk # PRODUCTION APK
-yarn run android:prod-aab # PRODUCTION BUNDLE
+yarn run android # DEVELOPMENT BUILD
+yarn run android:prod # PRODUCTION BUILD
 ```
 
 [IOS]
 ```bash
-yarn run ios:dev # DEVELOPMENT MODE
-yarn run ios:prod # PRODUCTION MODE
-yarn run ios:dev:release # DEVELOPMENT RELEASE MODE
-yarn run ios:prod:release # PRODUCTION RELEASE MODE
+yarn run ios # DEVELOPMENT BUILD
+yarn run ios:prod # PRODUCTION BUILD
 ```
