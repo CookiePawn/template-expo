@@ -29,12 +29,12 @@ yarn run start:prod # PRODUCTION MODE
 
 [android]
 ```bash
-yarn run android # DEVELOPMENT BUILD
+yarn run android:dev # DEVELOPMENT BUILD
 yarn run android:prod # PRODUCTION BUILD
 ```
 
 [IOS]
 ```bash
-yarn run ios # DEVELOPMENT BUILD
+yarn run ios:dev # DEVELOPMENT BUILD
 yarn run ios:prod # PRODUCTION BUILD
 ```
