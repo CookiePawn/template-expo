@@ -5,14 +5,15 @@
   "scripts": {
     "start": "expo start",
     "start:prod": "export NODE_ENV=production && expo start --no-dev --minify",
+    "android:dev": "eas build --platform android --profile development",
+    "android:prod": "eas build --platform android --profile production",
+    "ios:dev": "eas build --platform ios --profile development",
+    "ios:prod": "eas build --platform ios --profile production",
+
     "reset-project": "node ./scripts/reset-project.js",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "android": "eas build --platform android --profile development",
-    "android:prod": "eas build --platform android --profile production",
-    "ios": "eas build --platform ios --profile development",
-    "ios:prod": "eas build --platform ios --profile production",
     "status": "eas build:status"
   },
   "jest": {
